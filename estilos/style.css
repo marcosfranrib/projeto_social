@@ -22,7 +22,7 @@ body{
 }
 
 main{
-    
+
     position: relative;
     height: 100vh;   
 
@@ -49,15 +49,23 @@ iframe{
     background: url(../imagens/frame-iphone.png);
     background-repeat: no-repeat;
     background-size: cover;
-    
+     
 }
 
-#redes{
-    position: absolute;
-    left: 85%;
-    top: 10%;
-    background-color: aqua;
-    height: 80px;
-    width: 80px;
+#redes
+{
+  position: absolute;
+  left: 73.5%;
+  top: 5%;
+}
+
+
+
+#redes img{
+    
+    display: flex;   
+    width: 50px;
+    margin: 10px;
     border-radius: 50%;
+    box-shadow: 1px 1px 5px black;
 }
