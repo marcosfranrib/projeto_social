@@ -63,9 +63,15 @@ iframe{
 
 #redes img{
     
-    display: flex;   
+    display: flex;  
     width: 50px;
     margin: 10px;
     border-radius: 50%;
     box-shadow: 1px 1px 5px black;
+}
+
+#redes img:hover{
+    border: 1px solid white;
+    transform: translate(3px, 3px);
+    transition: transform 0.5s, border 0.5s;
 }
