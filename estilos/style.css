@@ -31,10 +31,10 @@ main{
 iframe{
    
     position: absolute;
-    top: 12.9%;
-    left: 7.2%;
-    width: 182px;
-    height: 322px;
+    top: 12.8%;
+    left: 6.8%;
+    width: 183px;
+    height: 321.7px;
 
 }
 
@@ -52,11 +52,12 @@ iframe{
      
 }
 
-#redes
-{
-  position: absolute;
-  left: 73.5%;
-  top: 5%;
+#redes{
+
+    position: absolute;
+    left: 73.5%;
+    top: 5%;
+
 }
 
 #redes img{
@@ -66,10 +67,12 @@ iframe{
     margin: 10px;
     border-radius: 50%;
     box-shadow: 1px 1px 5px black;
+
 }
 
 #redes img:hover{
     border: 1px solid white;
-    transform: translate(3px, 3px);
+    transform: translate(-3px, -3px);
     transition: transform 0.5s, border 0.5s;
 }
+
